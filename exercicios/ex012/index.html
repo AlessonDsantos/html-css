@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+    
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir essa Imagensem varias dispositivos diferentes ou simplismente aumente e diminua a tomanho em seu dispositivo</p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-G.png" alt="Imagens flexivel">
+        </picture>
+    </p>
+
+    <h1>Vamos Aprender a reproduzir audios em HTML</h1>
+    <p>Vamos Tocar um audio</p>    
+     
+    
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+   <!--Geralmente compativel com formatos MP3, WAB, OGG-->
+    
+   <p>TEstando</p>
+   <audio controls autoplay>
+<source src="midia/Yankee Doodle.mp3" type="audio/mpeg">
+<source src="midia/guanacast-33.mp3" type="audio/mpeg">
+
+<p>Infelismente seu navegador nao é compativel com Html5 <a href="midia/Yankee Doodle.mp3">Click aqui para baixar o arquivo</a></p>
+    </audio>
+
+</body>
+</html>

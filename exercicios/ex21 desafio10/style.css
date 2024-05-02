@@ -1,0 +1,64 @@
+header {
+    background-color: #27556c;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+nav {
+    text-align: left;
+    text-decoration: none;
+    background-color: #081F42;
+    margin: 0px;
+    
+}
+nav > a {
+    color: #7E92b2;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    border: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 0px 100px 0px 100px;
+   
+}
+
+main {
+    background-color: #202020;
+    margin: 0px;
+}
+#video {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+div {
+    background-color: #7E92b2;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#selecao {
+    margin: 0px 10px 10px 10px;
+}
+
+h4 {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}

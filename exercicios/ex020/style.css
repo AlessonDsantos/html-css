@@ -1,0 +1,89 @@
+body {
+    background-color: darkgray;
+}
+
+#titulo {
+    border: 1px solid rgb(161, 158, 158);
+    font-family: 'Courier New', Courier, monospace;
+}
+#subtitulo {
+    /*border: 1px solid rgb(104, 102, 102);*/
+    font-family: 'Times New Roman', Times, serif;
+}
+#div1 {
+    border: 1px solid rgb(104, 102, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+#div2 {
+    border: 1px solid rgb(104, 102, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+#div3 {
+    border: 1px solid rgb(104, 102, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+#div4 {
+    border: 1px solid rgb(104, 102, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+.botao {
+    background-color: rgb(21, 126, 175);
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    width: 80px;
+    font-size: 9pt;
+    margin-inline: 10px;
+}
+h2 {
+    margin-inline: 10px;
+    color: black;
+}
+
+.botao:hover {
+    background-color: rgb(38, 49, 38);
+}
+
+#div1 > p {
+    display: none;
+}
+#div1:hover {
+    color: rgb(14, 13, 13);
+}
+#div1:hover > p {
+    display: block;
+    color: rgb(10, 10, 10);
+}
+
+#div2 > p {
+    display: none;
+}
+#div2:hover {
+    color: rgb(14, 13, 13);
+}
+#div2:hover > p {
+    display: block;
+    color: rgb(8, 8, 8);
+}
+
+#div3 > p {
+    display: none;
+}
+#div3:hover {
+    color: rgb(14, 13, 13);
+}
+#div3:hover > p {
+    display: block;
+    color: rgb(17, 17, 17);
+}
+
+#div4 > p {
+    display: none;
+}
+#div4:hover {
+    color: rgb(14, 13, 13);
+}
+#div4:hover > p {
+    display: block;
+    color: rgb(8, 8, 8);
+}

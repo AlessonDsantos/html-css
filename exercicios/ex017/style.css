@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(imagens/solo.png);
+    }
+
+main {
+
+    background-image: linear-gradient(to right, #17a3a1, #186665);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #023535;
+    text-align: center;
+    box-shadow: 2px 5px 3px #023535;
+    
+}
+
+p {
+    
+    text-align: justify;
+}
+h2 { 
+    color: #023535;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    background-position-x: center;
+    text-align: center;
+
+}

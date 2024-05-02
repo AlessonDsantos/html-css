@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+     }
+ h1 {
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    }
+h2 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    }
+p {
+    text-align: justify;
+    text-align: center;
+    }

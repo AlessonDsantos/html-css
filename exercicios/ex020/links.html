@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        
+        body {            
+            background-color: rgb(51, 40, 40);
+        }
+        a {           
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited {
+            color: rgb(242, 240, 247);
+            
+        }
+        a:active {
+            color: yellow;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a::after {
+            content: '  [LINK]';
+            text-decoration: none;
+
+        }
+        a::before {
+            content: '[LINK]';
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.instagram.com/">Intagram</a></li>
+        <li><a href="https://www.youtube.com/">youtube</a></li>
+        <li><a href="https://www.linkedin.com/feed/">linkedin</a></li>
+    </ul>
+</body>
+</html>

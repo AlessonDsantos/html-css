@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: lightgrey;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: inset 5px 7px 15px 8px gray;
+        }
+        nav {
+            background-color: rgb(176, 216, 203);
+            padding: 3px;
+            box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.322);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 10px; /* aqui voce pode colocar 4 valores separadamente de cada ponta da borda*/
+        }
+        article {
+            background-color: lightblue;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: gray;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi deleniti distinctio, provident quibusdam iusto fugit nobis odio obcaecati sapiente, perspiciatis omnis quaerat, dolorem expedita adipisci aliquam nulla voluptatum dolor?</p>
+                <aside>
+                    <p>Artigo escrito por jose de silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Alesson</p>
+    </footer>
+</body>
+</html>
