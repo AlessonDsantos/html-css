@@ -6,13 +6,24 @@
     <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: repeat-y;
             background-position: center center;
             background-size: cover;
-            background-attachment: local;
+            background-attachment: fixed;*/
+
+            /*ShotHand para background
+            
+            Color>Image>position>repeat>size>attachment
+
+            Essa é o orden para o shothand
+
+            OBS: o cover, mesmo que no documento oficial diz que pode colocar, ele nao ta aplicando.
+            
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         }
         main {
             background-color: white;
