@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    /*font-variant: small-caps; O uppercase, faz o texto ficar letra maiuscula negrita essa small caps tabm mas uma uma diferença*/
+}
+
+header > p {
+    padding: 10px;
+}
+
+header a footer a {
+    text-decoration: underline;
+        
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(17, 16, 16, 0.582);
+    color: white;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
