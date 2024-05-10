@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte3: "Sriracha", cursive;
+    --fonte2: "Passion One", sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,18 +17,23 @@
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte1);
+    
 }
 
 header {
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center;    
 }
 
 header > h1 {
     padding-top: 50px;
-    text-transform: uppercase;
-    /*font-variant: small-caps; O uppercase, faz o texto ficar letra maiuscula negrita essa small caps tabm mas uma uma diferença*/
+    /*text-transform: uppercase;*/
+    font-variant: small-caps; /*O uppercase, faz o texto ficar letra maiuscula negrita essa small caps tabm mas uma uma diferença*/
+    font-family: var(--fonte2);
+    font-weight: normal;
+    font-size: 3em;
 }
 
 header > p {
@@ -35,6 +50,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 
 section.normal {
@@ -43,7 +59,7 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(17, 16, 16, 0.582);
+    background-color: rgba(26, 23, 23, 0.582);
     color: white;
 }
 
