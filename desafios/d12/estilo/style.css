@@ -22,7 +22,7 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.829);
     color: white;
     text-align: center;    
 }
@@ -33,16 +33,23 @@ header > h1 {
     font-variant: small-caps; /*O uppercase, faz o texto ficar letra maiuscula negrita essa small caps tabm mas uma uma diferença*/
     font-family: var(--fonte2);
     font-weight: normal;
-    font-size: 3em;
+    font-size: 10vw;
 }
 
 header > p {
     padding: 10px;
+    
 }
 
-header a footer a {
-    text-decoration: underline;
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
         
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -51,6 +58,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
+    font-size: 4vw ;
+}
+section > p{
+    padding-bottom: 2em;
+    font-weight: 25%;
 }
 
 section.normal {
@@ -61,11 +73,29 @@ section.normal {
 section.imagem {
     background-color: rgba(26, 23, 23, 0.582);
     color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
+    background-attachment: fixed;
+
+
 }
 
 .imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+
+}
+
+#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
